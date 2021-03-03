@@ -377,7 +377,7 @@ class WebServerDevice extends Device {
        );
 
   static const String kWebServerDeviceId = 'web-server';
-  static bool showWebServerDevice = false;
+  static bool showWebServerDevice = true;
 
   final Logger _logger;
 
